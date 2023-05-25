@@ -1,0 +1,42 @@
+body{
+    height: 1150px;
+}
+
+.seccion_padre{
+    display: flex;
+}
+
+.manos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.manos img{
+    width: 25%;
+}
+
+.chat{
+    padding: 50px;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+
+img{
+    width: 25%;
+    height: 15%;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.texto{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    top: 40px;
+    left: 40px;
+}
