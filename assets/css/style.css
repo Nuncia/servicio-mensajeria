@@ -19,16 +19,76 @@ body{
 }
 
 .chat{
-    padding: 50px;
+    /* padding: 50px; */
     min-height: 100vh;
-    background-color: cadetblue;
+    background-color: rgb(237, 249, 250);
+    display: flex;
+    /* flex-direction: column; */
+    border: gray;
 }
 
-img{
-    width: 25%;
-    height: 15%;
-    /* justify-content: center;
-    align-items: center; */
+.maria{
+    /* display: flex;
+    justify-content: space-between; */
+    border-color: 1 gray;
+    margin-bottom: 0px;
+    height: 80px;
+}
+
+i{
+    color: #bec1bb;
+}
+
+.maria img{
+    border-radius: 50%;
+    width: 32%;
+    height: 42%;
+    padding-left: 5px;
+}
+
+.maria img:hover{
+    border-radius: 50%;
+    width: 40%;
+    height: 50%;
+}
+
+.mariaNombre{
+  flex-basis: 20px;
+  /* height: 20px; */
+}
+
+.nombre{
+    font-size: large;
+}
+
+.nombre_2{
+    font-size: small;
+}
+
+.nuevo_chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50px;
+    /* height: 50px; */
+    min-height: 15vh;
+}
+
+.chat_1{
+    background-color: #A491D2;
+    height: 50px;
+    flex-basis: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat_1:hover{
+    background-color: #CDC3E6;
+}
+
+.chat_1:active{
+    background-color: #d4dcff;
 }
 
 .texto{
@@ -39,4 +99,19 @@ img{
     z-index: 4;
     top: 40px;
     left: 40px;
+}
+
+.moira{
+    display: flex;
+}
+
+.moira img{
+    border-radius: 50%;
+    width: 25%;
+    height: 43%;
+    padding-left: 5px;
+}
+
+.moira_nombre{
+    margin-bottom: 0px;
 }
