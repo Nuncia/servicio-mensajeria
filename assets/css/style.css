@@ -1,55 +1,63 @@
 body{
     height: 1150px;
+    font-family: 'Roboto', ""
 }
 
 .seccion_padre{
-    display: flex;
+    /* display: flex; */
 }
 
 .manos{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
+    text-align: center; */
 }
 
 .manos img{
-    width: 25%;
+    width: 35%;
+}
+
+.manos_text{
+    font-size: 45px;
+    font-weight: 500;
 }
 
 .chat{
     /* padding: 50px; */
     min-height: 100vh;
-    background-color: rgb(237, 249, 250);
-    display: flex;
+    /* background-color: rgb(237, 249, 250); */
+    /* display: flex; */
     /* flex-direction: column; */
     border: gray;
+    
 }
 
 .maria{
     /* display: flex;
     justify-content: space-between; */
-    border-color: 1 gray;
+    /* border-color: 1 gray; */
     margin-bottom: 0px;
     height: 80px;
 }
 
 i{
     color: #bec1bb;
+    /* width: 4px; */
 }
 
 .maria img{
     border-radius: 50%;
-    width: 32%;
-    height: 42%;
+    width: 55%;
+    height: 65%;
     padding-left: 5px;
 }
 
 .maria img:hover{
     border-radius: 50%;
-    width: 40%;
-    height: 50%;
+    width: 65%;
+    height: 75%;
 }
 
 .mariaNombre{
@@ -66,10 +74,10 @@ i{
 }
 
 .nuevo_chat{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 50px;
+    flex-basis: 50px; */
     /* height: 50px; */
     min-height: 15vh;
 }
@@ -78,9 +86,9 @@ i{
     background-color: #A491D2;
     height: 50px;
     flex-basis: 160px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .chat_1:hover{
@@ -102,16 +110,23 @@ i{
 }
 
 .moira{
-    display: flex;
+    /* display: flex; */
+    height: 80px;
+    width: 80px;
 }
 
 .moira img{
     border-radius: 50%;
-    width: 25%;
-    height: 43%;
+    width: 70%;
+    height: 70%;
     padding-left: 5px;
 }
 
 .moira_nombre{
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
+}
+
+.dispobible{
+    font-size: small;
+    color: #585857;
 }
