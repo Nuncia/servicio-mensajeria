@@ -1,6 +1,5 @@
 body{
-    height: 1150px;
-    font-family: 'Roboto', ""
+    /* font-family: 'Roboto'; */
 }
 
 .seccion_padre{
@@ -13,10 +12,11 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center; */
+    width: 1500px;
 }
 
 .manos img{
-    width: 35%;
+    width: 25%;
 }
 
 .manos_text{
@@ -24,22 +24,30 @@ body{
     font-weight: 500;
 }
 
+.titulo{
+    font-size: 45px;
+}
+
 .chat{
-    /* padding: 50px; */
     min-height: 100vh;
-    /* background-color: rgb(237, 249, 250); */
-    /* display: flex; */
-    /* flex-direction: column; */
-    border: gray;
-    
+    border: gray; 
+    width: 350px;  
+}
+
+.prueba{
+    width: 120px;
+}
+
+.habilitado{
+    visibility: hidden;
 }
 
 .maria{
-    /* display: flex;
-    justify-content: space-between; */
-    /* border-color: 1 gray; */
     margin-bottom: 0px;
-    height: 80px;
+    /* height: 80px; */
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 i{
@@ -47,22 +55,22 @@ i{
     /* width: 4px; */
 }
 
-.maria img{
+/* .maria img{
     border-radius: 50%;
-    width: 55%;
-    height: 65%;
+    width: 40%;
+    height: 50%;
     padding-left: 5px;
-}
+} */
 
-.maria img:hover{
+.maria:hover{
     border-radius: 50%;
-    width: 65%;
-    height: 75%;
+    width: 45%;
+    /* height: 40%; */
 }
 
 .mariaNombre{
-  flex-basis: 20px;
-  /* height: 20px; */
+  /* width: 70px; */
+  flex-grow: 2;
 }
 
 .nombre{
@@ -71,14 +79,11 @@ i{
 
 .nombre_2{
     font-size: small;
+    /* flex-grow: 2; */
+    width: 40px;
 }
 
 .nuevo_chat{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 50px; */
-    /* height: 50px; */
     min-height: 15vh;
 }
 
@@ -86,9 +91,6 @@ i{
     background-color: #A491D2;
     height: 50px;
     flex-basis: 160px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .chat_1:hover{
@@ -99,31 +101,17 @@ i{
     background-color: #d4dcff;
 }
 
-.texto{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
-    top: 40px;
-    left: 40px;
-}
-
 .moira{
     /* display: flex; */
-    height: 80px;
-    width: 80px;
+    /* height: 70px;
+    width: 80px; */
 }
 
 .moira img{
     border-radius: 50%;
-    width: 70%;
+    width: 20%;
     height: 70%;
     padding-left: 5px;
-}
-
-.moira_nombre{
-    /* margin-bottom: 0px; */
 }
 
 .dispobible{
