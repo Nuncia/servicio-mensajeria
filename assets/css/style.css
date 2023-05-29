@@ -1,5 +1,5 @@
 body{
-    /* font-family: 'Roboto'; */
+    font-family: 'Roboto';
 }
 
 .seccion_padre{
@@ -26,12 +26,13 @@ body{
 
 .titulo{
     font-size: 45px;
+    font-family: 'Roboto';
 }
 
 .chat{
     min-height: 100vh;
     border: gray; 
-    width: 350px;  
+    /* width:    */
 }
 
 .prueba{
@@ -64,13 +65,17 @@ i{
 
 .maria:hover{
     border-radius: 50%;
-    width: 45%;
-    /* height: 40%; */
+    width: 25%;
+    height: 55%;
 }
 
 .mariaNombre{
   /* width: 70px; */
   flex-grow: 2;
+}
+
+.iconos{
+    color: #bec1bb;
 }
 
 .nombre{
@@ -98,7 +103,7 @@ i{
 }
 
 .chat_1:active{
-    background-color: #d4dcff;
+    background-color: rgb(201, 199, 199);
 }
 
 .moira{
@@ -116,5 +121,22 @@ i{
 
 .dispobible{
     font-size: small;
-    color: #585857;
+    color: #bec1bb;
+}
+
+.disponible{
+    font-size: small;
+    color: #000;
+}
+
+.texto{
+    font-family:sans-serif;
+}
+
+.texto_2{
+    font-family:sans-serif;
+}
+
+.texto_3{
+    font-family:sans-serif;
 }
