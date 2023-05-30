@@ -1,142 +1,70 @@
-body{
-    font-family: 'Roboto';
-}
-
-.seccion_padre{
-    /* display: flex; */
-}
 
 .manos{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center; */
-    width: 1500px;
+    min-height: 100vh;
+    /* flex: 0 0 887px; */
+    /* width: 300px; */
 }
-
 .manos img{
-    width: 25%;
+    width: 35%;
 }
 
-.manos_text{
-    font-size: 45px;
-    font-weight: 500;
-}
-
-.titulo{
-    font-size: 45px;
-    font-family: 'Roboto';
+i{
+    color: #BEC1bb;
 }
 
 .chat{
     min-height: 100vh;
-    border: gray; 
-    /* width:    */
-}
-
-.prueba{
-    width: 120px;
-}
-
-.habilitado{
-    visibility: hidden;
+    flex: 0 0 337px;
 }
 
 .maria{
-    margin-bottom: 0px;
-    /* height: 80px; */
-    width: 40px;
-    height: 50px;
+    margin-bottom: 1px solid rgb(201, 199, 199);
+}
+
+.maria img{
+    width: 23%;
+    height: 23%;
     border-radius: 50%;
 }
 
-i{
-    color: #bec1bb;
-    /* width: 4px; */
+.maria img:hover{
+  width: 35%;  
 }
 
-/* .maria img{
-    border-radius: 50%;
-    width: 40%;
-    height: 50%;
-    padding-left: 5px;
-} */
-
-.maria:hover{
-    border-radius: 50%;
-    width: 25%;
-    height: 55%;
+.maria_2{
+    padding: 10px;
 }
 
-.mariaNombre{
-  /* width: 70px; */
-  flex-grow: 2;
+.maria_1{
+    flex: 0 0 150px;
 }
 
-.iconos{
-    color: #bec1bb;
-}
-
-.nombre{
-    font-size: large;
-}
-
-.nombre_2{
+.activo{
     font-size: small;
-    /* flex-grow: 2; */
-    width: 40px;
+    color: #bec1bb;
 }
 
 .nuevo_chat{
     min-height: 15vh;
 }
 
-.chat_1{
-    background-color: #A491D2;
+.nuevo_chat_1{
+    text-align: center;
+    background-color: #a491d2; 
+    color: white;
     height: 50px;
-    flex-basis: 160px;
+    flex: 0 0 160px;
 }
 
-.chat_1:hover{
-    background-color: #CDC3E6;
+.nuevo_chat_1:hover{
+    background-color: #cdc3e6;
 }
 
-.chat_1:active{
-    background-color: rgb(201, 199, 199);
-}
-
-.moira{
-    /* display: flex; */
-    /* height: 70px;
-    width: 80px; */
+.nuevo_chat_1:focus{
+    background-color: #d4dcff;
 }
 
 .moira img{
+    width: 17%;
     border-radius: 50%;
-    width: 20%;
-    height: 70%;
-    padding-left: 5px;
-}
-
-.dispobible{
-    font-size: small;
-    color: #bec1bb;
-}
-
-.disponible{
-    font-size: small;
-    color: #000;
-}
-
-.texto{
-    font-family:sans-serif;
-}
-
-.texto_2{
-    font-family:sans-serif;
-}
-
-.texto_3{
-    font-family:sans-serif;
 }
