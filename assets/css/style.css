@@ -1,42 +1,52 @@
-
-.manos{
-    min-height: 100vh;
-    /* flex: 0 0 887px; */
-    /* width: 300px; */
-}
-.manos img{
-    width: 35%;
-}
-
-i{
-    color: #BEC1bb;
+.body{
+    font-family: 'Roboto', 'Open Sans';
 }
 
 .chat{
+    flex: 0 0 25em;
     min-height: 100vh;
-    flex: 0 0 337px;
 }
 
-.maria{
-    margin-bottom: 1px solid rgb(201, 199, 199);
+.border{
+    border-color:  #e8ebe4!;
 }
 
-.maria img{
-    width: 23%;
-    height: 23%;
-    border-radius: 50%;
+.manos{
+    min-height: auto;
+    flex-basis: 300em;
+    background-color: #e8ebe4;
 }
 
-.maria img:hover{
-  width: 35%;  
+.manos img{
+    width: 25%;
 }
 
-.maria_2{
-    padding: 10px;
+.titulo{
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+
+.texto{
+    font-family: 'Open Sans';
+}
+
+.i{
+    background-color: #e8ebe4;
 }
 
 .maria_1{
-    flex: 0 0 150px;
+    flex-basis: 15em;
+    height: 49px;
+}
+
+.maria_1 img{
+    width: 19%;
+    border-radius: 50%;
+}
+
+.maria_2{
+    font-weight: 600;
+    font-size: large;
 }
 
 .activo{
@@ -44,27 +54,35 @@ i{
     color: #bec1bb;
 }
 
-.nuevo_chat{
-    min-height: 15vh;
+.nuevoChat_padre{
+    width: auto;
+    height: 10em;
 }
 
-.nuevo_chat_1{
-    text-align: center;
-    background-color: #a491d2; 
+.nuevoChat{
+    height: 4em;
+    width: 12em;
     color: white;
-    height: 50px;
-    flex: 0 0 160px;
+    background-color: #a491d2;
 }
 
-.nuevo_chat_1:hover{
+.nuevoChat:hover{
     background-color: #cdc3e6;
 }
 
-.nuevo_chat_1:focus{
-    background-color: #d4dcff;
+.nuevoChat:focus{
+    background-color: #e8ebe4;
+}
+
+.nuevoChat:active{
+    background-color: #e8ebe4;
 }
 
 .moira img{
-    width: 17%;
+    width: 16%;
+    height: 16%;
     border-radius: 50%;
+    /* width: 15%;
+    border-radius: 50%; */
+    font-weight: 700;
 }
